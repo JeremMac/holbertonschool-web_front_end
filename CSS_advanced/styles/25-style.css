@@ -78,6 +78,7 @@ a:link {
     padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
+    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
 
