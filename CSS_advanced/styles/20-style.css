@@ -185,9 +185,8 @@ ul.row {
     text-align: right;
 }
 
-.row {
-    display: flex;
-    content: normal;
+.row::after {
+    content: "";
     display: table;
-    float: none;
-}
+    clear: both;
+  }
